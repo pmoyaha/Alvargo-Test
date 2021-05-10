@@ -1,0 +1,43 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Index</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet"  href="style.css">
+        
+    </head>
+        <body >
+            <div id="myNav" class="User" >
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="User-content">
+                    <a href="#">Help</a>
+                  <a href="#">About</a>
+                  <a href="#">Wallet</a>
+                  <a href="#">Payment</a>
+                  <a href="#">LogOut</a>  
+                </div>
+              </div>
+            
+              <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+              <script>
+                function openNav() {
+                  document.getElementById("myNav").style.width = "100%";
+                }
+                
+                function closeNav() {
+                  document.getElementById("myNav").style.width = "0%";
+                }
+                </script>
+ <div class="Locate">
+    <div class="locate-content">
+    <input type="text" class="search-field locatio"
+    placeholder="Location">
+    <button class="search-btn"
+    type="button">Search</button>
+ </div>
+        </body>
+            
+    
+</html>

@@ -1,0 +1,83 @@
+body {
+    font-family: 'Lato', sans-serif;
+
+    background-image: url(https://images.pexels.com/photos/6169177/pexels-photo-6169177.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+  }
+    .User{
+        background-image: url(https://images.pexels.com/photos/6169177/pexels-photo-6169177.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+     }
+
+  
+  .User {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .User-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .User a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .User a:hover, .User a:focus {
+    color: #f1f1f1;
+  }
+  
+  .User .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+  .Locate{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .search-field{
+      height: 50px;
+      padding: 10px;
+      border: none;
+      border-radius: 25px;
+      outline: none;
+  }
+.search-btn{
+    height: 50px;
+    width: 150px;
+    border: none;
+    color: #000;
+    border-radius: 25px;
+}
